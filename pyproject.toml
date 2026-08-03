@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oh-mpl-paper"
+version = "0.1.0"
+description = "Publication-ready Matplotlib styles for scientific papers, posters, and presentations."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "Oscar Hickman" },
+]
+dependencies = [
+    "matplotlib>=3.3.0",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/OscarHickman/thesis-themes"
+
+[tool.setuptools.packages.find]
+include = ["oh_mpl_paper*"]
+
+[tool.setuptools.package-data]
+"oh_mpl_paper" = ["styles/*.mplstyle"]

@@ -1,0 +1,55 @@
+# ieee.mplstyle — strict IEEE transactions single-column format.
+# Column width 3.5in, Times New Roman, 8pt fonts.
+
+pdf.fonttype: 42
+ps.fonttype: 42
+font.family: serif
+font.serif: Times New Roman, Times, DejaVu Serif
+font.size: 8
+mathtext.fontset: stix
+mathtext.rm: serif
+
+axes.linewidth: 0.8
+axes.labelsize: 8
+axes.labelweight: normal
+axes.titlesize: 8
+axes.spines.top: True
+axes.spines.right: True
+axes.grid: False
+axes.axisbelow: True
+axes.prop_cycle: cycler('color', ['000000', 'E69F00', '56B4E9', '009E73', 'F0E442', '0072B2', 'D55E00', 'CC79A7'])
+
+xtick.direction: in
+xtick.labelsize: 7
+xtick.major.size: 3.0
+xtick.major.width: 0.6
+xtick.minor.size: 1.5
+xtick.minor.width: 0.4
+xtick.minor.visible: True
+xtick.top: True
+
+ytick.direction: in
+ytick.labelsize: 7
+ytick.major.size: 3.0
+ytick.major.width: 0.6
+ytick.minor.size: 1.5
+ytick.minor.width: 0.4
+ytick.minor.visible: True
+ytick.right: True
+
+lines.linewidth: 1.0
+lines.markersize: 4
+patch.linewidth: 0.5
+errorbar.capsize: 2
+
+legend.fontsize: 7
+legend.title_fontsize: 7
+legend.frameon: True
+legend.framealpha: 0.9
+legend.handlelength: 1.6
+legend.labelspacing: 0.3
+
+figure.figsize: 3.5, 2.625
+figure.dpi: 150
+savefig.dpi: 600
+savefig.bbox: tight

@@ -1,0 +1,52 @@
+# presentation.mplstyle — 16:9 slide deck format.
+# Large fonts, thick lines, high contrast for projector viewing.
+
+pdf.fonttype: 42
+ps.fonttype: 42
+font.family: sans-serif
+font.sans-serif: Arial, Helvetica, DejaVu Sans
+font.size: 18
+mathtext.fontset: dejavusans
+
+axes.linewidth: 1.8
+axes.labelsize: 20
+axes.labelweight: bold
+axes.titlesize: 22
+axes.titleweight: bold
+axes.spines.top: False
+axes.spines.right: False
+axes.grid: False
+axes.axisbelow: True
+axes.prop_cycle: cycler('color', ['E69F00', '56B4E9', '009E73', 'D55E00', '0072B2', 'CC79A7', 'F0E442', '000000'])
+
+xtick.direction: in
+xtick.labelsize: 16
+xtick.major.size: 6.0
+xtick.major.width: 1.5
+xtick.minor.visible: False
+xtick.top: False
+
+ytick.direction: in
+ytick.labelsize: 16
+ytick.major.size: 6.0
+ytick.major.width: 1.5
+ytick.minor.visible: False
+ytick.right: False
+
+lines.linewidth: 3.0
+lines.markersize: 9
+patch.linewidth: 1.0
+errorbar.capsize: 4
+
+legend.fontsize: 16
+legend.title_fontsize: 16
+legend.frameon: False
+legend.handlelength: 1.8
+legend.labelspacing: 0.4
+
+figure.figsize: 12.8, 7.2
+figure.dpi: 120
+figure.constrained_layout.use: True
+savefig.dpi: 200
+savefig.bbox: tight
+savefig.transparent: True

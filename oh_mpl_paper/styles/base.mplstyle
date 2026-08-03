@@ -1,0 +1,63 @@
+# base.mplstyle — shared foundation for all oh_mpl_paper styles.
+# Editable, embedded (Type 42) fonts; colorblind-safe categorical cycle
+# (Okabe-Ito); inward ticks; clean two-spine axes.
+
+# --- Fonts (editable in Illustrator/Inkscape) -------------------------------
+pdf.fonttype: 42
+ps.fonttype: 42
+font.family: serif
+font.weight: normal
+font.size: 9
+mathtext.fontset: cm
+mathtext.default: it
+
+# --- Axes --------------------------------------------------------------------
+axes.linewidth: 0.8
+axes.labelsize: 9
+axes.labelweight: normal
+axes.titlesize: 9
+axes.spines.top: False
+axes.spines.right: False
+axes.grid: False
+axes.axisbelow: True
+
+# Okabe-Ito colorblind-safe categorical palette
+axes.prop_cycle: cycler('color', ['000000', 'E69F00', '56B4E9', '009E73', 'F0E442', '0072B2', 'D55E00', 'CC79A7'])
+
+# --- Ticks ---------------------------------------------------------------
+xtick.direction: in
+xtick.labelsize: 8
+xtick.major.size: 3.0
+xtick.major.width: 0.6
+xtick.minor.size: 1.6
+xtick.minor.width: 0.5
+xtick.minor.visible: True
+xtick.top: False
+
+ytick.direction: in
+ytick.labelsize: 8
+ytick.major.size: 3.0
+ytick.major.width: 0.6
+ytick.minor.size: 1.6
+ytick.minor.width: 0.5
+ytick.minor.visible: True
+ytick.right: False
+
+# --- Lines & markers -----------------------------------------------------
+lines.linewidth: 1.2
+lines.markersize: 4
+patch.linewidth: 0.5
+errorbar.capsize: 2
+
+# --- Legend ----------------------------------------------------------------
+legend.fontsize: 7
+legend.title_fontsize: 7
+legend.frameon: False
+legend.handlelength: 1.6
+legend.labelspacing: 0.3
+
+# --- Figure / saving -------------------------------------------------------
+figure.figsize: 3.5, 2.625
+figure.dpi: 150
+savefig.dpi: 300
+savefig.bbox: tight

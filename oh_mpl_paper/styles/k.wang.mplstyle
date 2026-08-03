@@ -1,0 +1,76 @@
+# k.wang.mplstyle — faithful reproduction of the SaUCE/sauce_xi MNRAS
+# paper-figures house style (galform_analysis.utils.matplotlib_config
+# defaults, as overridden by paper_figures/_shared.py, 2026-07 revision).
+# Single-column MNRAS width (3.31in / ~84mm); serif + Computer Modern math.
+
+pdf.fonttype: 42
+ps.fonttype: 42
+font.family: serif
+font.weight: normal
+font.size: 8
+mathtext.fontset: cm
+mathtext.default: it
+
+figure.figsize: 3.31, 2.648
+figure.subplot.wspace: 0.25
+figure.subplot.hspace: 0.25
+figure.constrained_layout.use: True
+
+axes.labelsize: 11
+axes.labelweight: normal
+axes.titlesize: 11
+axes.linewidth: 0.735
+axes.edgecolor: (0.0, 0.0, 0.0, 0.8)
+axes.grid: True
+axes.axisbelow: True
+
+xtick.color: (0.0, 0.0, 0.0, 0.8)
+xtick.labelsize: 9
+xtick.direction: in
+xtick.top: True
+xtick.major.size: 3.5
+xtick.major.width: 0.7
+xtick.minor.size: 2.0
+xtick.minor.width: 0.5
+xtick.minor.visible: True
+
+ytick.color: (0.0, 0.0, 0.0, 0.8)
+ytick.labelsize: 9
+ytick.direction: in
+ytick.right: True
+ytick.major.size: 3.5
+ytick.major.width: 0.7
+ytick.minor.size: 2.0
+ytick.minor.width: 0.5
+ytick.minor.visible: True
+
+grid.color: gray
+grid.alpha: 0.5
+grid.linestyle: (0, (1.6, 1.6))
+grid.linewidth: 0.8
+
+patch.edgecolor: (0.0, 0.0, 0.0, 0.8)
+patch.linewidth: 0.5
+
+lines.linewidth: 1.2
+errorbar.capsize: 2
+
+legend.numpoints: 2
+legend.scatterpoints: 3
+legend.markerscale: 1.0
+legend.fontsize: 7
+legend.title_fontsize: 7
+legend.loc: best
+legend.handlelength: 2.0
+legend.handleheight: 0.5
+legend.labelspacing: 0.1
+legend.handletextpad: 0.5
+legend.borderpad: 0.25
+legend.borderaxespad: 0.8
+legend.columnspacing: 1.0
+legend.shadow: False
+legend.frameon: False
+legend.framealpha: 0.8
+
+savefig.dpi: 300
+savefig.bbox: tight

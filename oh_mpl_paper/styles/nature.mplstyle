@@ -1,0 +1,54 @@
+# nature.mplstyle — single-column Nature/Nature-family figure format.
+# Column width 3.46in (~89mm), 8pt fonts, tight constrained layout.
+
+pdf.fonttype: 42
+ps.fonttype: 42
+font.family: sans-serif
+font.sans-serif: Arial, Helvetica, DejaVu Sans
+font.size: 8
+mathtext.fontset: dejavusans
+
+axes.linewidth: 0.8
+axes.labelsize: 8
+axes.labelweight: normal
+axes.titlesize: 8
+axes.spines.top: False
+axes.spines.right: False
+axes.grid: False
+axes.axisbelow: True
+axes.prop_cycle: cycler('color', ['000000', 'E69F00', '56B4E9', '009E73', 'F0E442', '0072B2', 'D55E00', 'CC79A7'])
+
+xtick.direction: in
+xtick.labelsize: 7
+xtick.major.size: 2.5
+xtick.major.width: 0.6
+xtick.minor.size: 1.5
+xtick.minor.width: 0.4
+xtick.minor.visible: True
+xtick.top: False
+
+ytick.direction: in
+ytick.labelsize: 7
+ytick.major.size: 2.5
+ytick.major.width: 0.6
+ytick.minor.size: 1.5
+ytick.minor.width: 0.4
+ytick.minor.visible: True
+ytick.right: False
+
+lines.linewidth: 1.0
+lines.markersize: 4
+patch.linewidth: 0.5
+errorbar.capsize: 2
+
+legend.fontsize: 6.5
+legend.title_fontsize: 6.5
+legend.frameon: False
+legend.handlelength: 1.4
+legend.labelspacing: 0.3
+
+figure.figsize: 3.46, 2.6
+figure.dpi: 150
+figure.constrained_layout.use: True
+savefig.dpi: 300
+savefig.bbox: tight
