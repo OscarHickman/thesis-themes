@@ -52,3 +52,21 @@ categorical color cycle.
 pip install -e ".[test]"
 pytest
 ```
+
+## Releasing
+
+Pushing a tag of the form `vX.Y.Z` triggers `.github/workflows/publish.yml`,
+which builds the package and publishes it to PyPI via
+[Trusted Publishing](https://docs.pypi.org/trusted-publishers/) (no API
+token stored in this repo). The tag's version must match the `version`
+field in `pyproject.toml` or the workflow fails before publishing.
+
+```bash
+# bump version in pyproject.toml, commit, then:
+git tag v0.1.1
+git push origin v0.1.1
+```
+
+PyPI-side setup (one-time, done outside this repo): add a trusted publisher
+on the `oh-mpl-paper` project pointing at this GitHub repo, workflow file
+`publish.yml`, and environment name `pypi`.
