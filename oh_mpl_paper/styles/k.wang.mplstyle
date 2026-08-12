@@ -21,7 +21,7 @@ axes.labelweight: normal
 axes.titlesize: 11
 axes.linewidth: 0.735
 axes.edgecolor: (0.0, 0.0, 0.0, 0.8)
-axes.grid: True
+axes.grid: False
 axes.axisbelow: True
 
 xtick.color: (0.0, 0.0, 0.0, 0.8)
