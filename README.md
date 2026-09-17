@@ -11,7 +11,9 @@ figures that satisfy a journal's font, size, and line-weight requirements —
 ## Installation
 
 ```bash
-pip install git+https://github.com/OscarHickman/thesis-themes.git
+pip install oh-mpl-paper
+# or, with uv:
+uv add oh-mpl-paper
 ```
 
 ## Usage
