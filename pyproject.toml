@@ -23,6 +23,8 @@ test = [
 
 [project.urls]
 Homepage = "https://github.com/OscarHickman/thesis-themes"
+Repository = "https://github.com/OscarHickman/thesis-themes"
+Issues = "https://github.com/OscarHickman/thesis-themes/issues"
 
 [tool.setuptools.packages.find]
 include = ["oh_mpl_paper*"]
